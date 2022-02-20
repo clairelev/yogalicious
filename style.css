@@ -1,5 +1,5 @@
 body{ font-family: 'Noto Serif Display', serif;
-    background-color:rgb(134, 134, 134);
+    background-color:rgb(216, 216, 216);
     margin: 10%
 }
 
@@ -13,6 +13,7 @@ h2{
 }
 
 
+
 footer{color: #FFFFFF;
     background-color:rgb(31, 31, 31);
     height: 25px;
@@ -23,6 +24,67 @@ footer{color: #FFFFFF;
     background-color:rgb(167, 167, 167);
 }
 
+.suspects{
+    background-color:rgb(235, 231, 231);
+}
+
+.conclusion{
+    background-color:rgb(223, 219, 219);
+}
+.detective{
+    background-color:rgb(104, 112, 146);
+    font-family: 'Syne Tactile', cursive;
+    font-style: oblique;
+    padding: 15px;
+}
+
+
+.block {
+    float: left;
+    width: 50%;
+}
+
 .yvonne{
-    background-color:rgb(212, 26, 172);
+    background-color:rgb(199, 90, 175);
+    font-family: 'Lobster', cursive;
+    padding: 15px;
+}
+
+.carla{
+    background-color:rgb(134, 197, 109);
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    padding: 15px;
+} 
+
+.sabrina{
+    background-color:rgb(197, 141, 109);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 18px;
+    padding: 15px;
+} 
+
+.chad{
+    background-color:rgb(109, 162, 197);
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    padding: 15px;
+} 
+
+.chef{
+    background-color:rgb(109, 197, 160);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+    padding: 15px;
+} 
+
+.map{
+max-width: 100%;
+height: auto;
+}
+
+.description{
+    background-color:rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 15px;   
 }
