@@ -18,6 +18,7 @@ footer{color: #FFFFFF;
     background-color:rgb(31, 31, 31);
     height: 25px;
     text-align: center;
+    border-radius: 25px;
     }
 
 .mysterio{
@@ -26,16 +27,19 @@ footer{color: #FFFFFF;
 
 .suspects{
     background-color:rgb(235, 231, 231);
+    border-radius: 25px;
 }
 
 .conclusion{
     background-color:rgb(223, 219, 219);
+    border-radius: 25px;
 }
 .detective{
     background-color:rgb(104, 112, 146);
     font-family: 'Syne Tactile', cursive;
     font-style: oblique;
     padding: 15px;
+    border-radius: 25px;
 }
 
 
@@ -48,6 +52,7 @@ footer{color: #FFFFFF;
     background-color:rgb(199, 90, 175);
     font-family: 'Lobster', cursive;
     padding: 15px;
+    border-radius: 25px;
 }
 
 .carla{
@@ -55,6 +60,7 @@ footer{color: #FFFFFF;
     font-family: 'Dancing Script', cursive;
     font-size: 18px;
     padding: 15px;
+    border-radius: 25px;
 } 
 
 .sabrina{
@@ -62,6 +68,7 @@ footer{color: #FFFFFF;
     font-family: 'Akaya Telivigala', cursive;
     font-size: 18px;
     padding: 15px;
+    border-radius: 25px;
 } 
 
 .chad{
@@ -69,6 +76,7 @@ footer{color: #FFFFFF;
     font-family: 'Indie Flower', cursive;
     font-size: 18px;
     padding: 15px;
+    border-radius: 25px;
 } 
 
 .chef{
@@ -76,6 +84,7 @@ footer{color: #FFFFFF;
     font-family: 'Shadows Into Light', cursive;
     font-size: 18px;
     padding: 15px;
+    border-radius: 25px;
 } 
 
 .map{
@@ -86,5 +95,6 @@ height: auto;
 .description{
     background-color:rgb(255, 255, 255);
     font-size: 18px;
-    padding: 15px;   
+    padding: 15px; 
+    border-radius: 25px;  
 }
