@@ -1,0 +1,28 @@
+body{ font-family: 'Noto Serif Display', serif;
+    background-color:rgb(134, 134, 134);
+    margin: 10%
+}
+
+h1{ font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Staatliches', cursive;
+}
+
+
+footer{color: #FFFFFF;
+    background-color:rgb(31, 31, 31);
+    height: 25px;
+    text-align: center;
+    }
+
+.mysterio{
+    background-color:rgb(167, 167, 167);
+}
+
+.yvonne{
+    background-color:rgb(212, 26, 172);
+}
