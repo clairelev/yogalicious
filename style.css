@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{ font-family: 'Noto Serif Display', serif;
+    background-color:rgb(216, 216, 216);
+
+
+}
+
+h1{ font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Staatliches', cursive;
+}
+
+
+
+footer{color: #FFFFFF;
+    background-color:rgb(150, 150, 150);
+    height: 25px;
+    text-align: center;
+
+    }
+
+.mysterio{
+    background-color:rgb(167, 167, 167);
+    border-radius: 25px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.suspects{
+    background-color:#ffffff;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.conclusion{
+    background-color:#ffffff;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 25px;
+}
+.detective{
+    background-color:rgb(104, 112, 146);
+    font-family: 'Syne Tactile', cursive;
+    font-style: oblique;
+    padding: 25px;
+    border-radius: 25px;
+    margin: 25px;
+}
+
+
+.block {
+    float: left;
+    width: 50%;
+}
+
+.yvonne{
+    background-color:rgb(199, 90, 175);
+    font-family: 'Lobster', cursive;
+    padding: 25px;
+    border-radius: 25px;
+    margin: 25px;
+}
+
+.carla{
+    background-color:rgb(134, 197, 109);
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    padding: 25px;
+    border-radius: 25px;
+    margin: 25px;
+} 
+
+.sabrina{
+    background-color:rgb(197, 141, 109);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 18px;
+    padding: 25px;
+    border-radius: 25px;
+    margin: 25px;
+} 
+
+.chad{
+    background-color:rgb(109, 162, 197);
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    padding: 25px;
+    border-radius: 25px;
+    margin: 25px;
+} 
+
+.chef{
+    background-color:rgb(109, 197, 160);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+    padding: 25px;
+    border-radius: 25px;
+    margin: 25px;
+} 
+
+
+.map{
+max-width: 100%;
+height: auto;
+margin: 25px;
+}
+
+.description{
+    background-color:rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 25px; 
+    border-radius: 25px;  
+    margin: 25px;
+}
+
+
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color:rgb(150, 150, 150);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logo{
+    color:rgb(229, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links li{
+    list-style: none; 
+}
+
+.nav-links a{
+    color: rgb(229, 226, 226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(229, 226, 226);
+    margin: 5px;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav-links{
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: rgb(150, 150, 150);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display:block;
+    }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);}
+    
+    
+    to{opacity: 1;
+        transform: translateX(0px);
+
+    }
+}
+
+.closeburger .line1{
+    color: rgb(229, 226, 226);
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.closeburger .line2{
+    opacity: 0;
+}
+
+.closeburger .line3{
+    color: rgb(229, 226, 226);
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+
