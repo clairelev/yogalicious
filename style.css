@@ -226,4 +226,47 @@ nav{
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
+.button{display: inline-block;
+    background-color: #3850d8;
+    border-radius: 10px;
+    border: 4px double #163133;
+    color: #eaebf0;
+    text-align: center;
+    font-size: 14px;
+    padding:32px 16px;
+    margin:20%
+  
+}
 
+.button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #c41616; 
+    color: white;
+  }
+
+  .button1{display: inline-block;
+    background-color: #0ece1e;
+    border-radius: 14px;
+    border: 4px double #95c314;
+    color: #2b0a57;
+    text-align: center;
+    font-size: 22px;
+    padding:16px;
+    margin:20%
+  
+}
+
+.button1 {
+    transition-duration: 0.4s;
+  }
+  
+  .button1:hover {
+    background-color: #dd95bf; 
+    color: rgb(7, 50, 58);
+  }
+
+
+  

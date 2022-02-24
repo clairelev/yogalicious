@@ -107,3 +107,10 @@ setGreeting();
 getName();
 
 navSlide();
+
+
+
+function mainpage(){
+    window.location='main.html';
+    
+}
