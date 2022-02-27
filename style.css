@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+a:hover{ color:pink;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+a{color: black;
+text-decoration: none;}
+
+
+
 body{ font-family: 'Noto Serif Display', serif;
     background-color:rgb(216, 216, 216);
 

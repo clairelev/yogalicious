@@ -81,19 +81,24 @@ function getName() {
     }
 }
 
-function setName(e) {
-    if(e.type === 'keypress') {
-        if(e.which == 13 || e.keyCode == 13) {
+
+const detname = { 
+    name: function setName(e) {
+        if(e.type === 'keypress') {
+            if(e.which == 13 || e.keyCode == 13) {
+                localStorage.setItem('detectivename', e.target.innerText);
+                detectivename.blur();
+            }
+        }   else {
             localStorage.setItem('detectivename', e.target.innerText);
-            detectivename.blur();
         }
-    }   else {
-        localStorage.setItem('detectivename', e.target.innerText);
     }
 }
 
-detectivename.addEventListener('keypress', setName);
-detectivename.addEventListener('blur', setName);
+
+
+detectivename.addEventListener('keypress', detname.name);
+detectivename.addEventListener('blur', detname.name);
 
 
 
@@ -105,7 +110,6 @@ detectivename.addEventListener('blur', setName);
 showTime();
 setGreeting();
 getName();
-
 navSlide();
 
 
