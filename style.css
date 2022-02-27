@@ -133,6 +133,9 @@ margin: 25px;
     margin: 25px;
 }
 
+.hidden{
+    opacity:0
+}
 
 
 nav{
