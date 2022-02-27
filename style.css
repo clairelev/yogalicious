@@ -280,4 +280,10 @@ nav{
   }
 
 
-  
+  .experience{
+    background-color: #3498DB;
+    color: rgb(90, 5, 69);
+    padding: 10px;
+    font-size: 16px;
+    border: black;
+    cursor: pointer;}

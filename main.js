@@ -118,3 +118,14 @@ function mainpage(){
     window.location='main.html';
     
 }
+
+function indexpage(){
+    window.location='index.html';
+    
+}
+
+
+function experience() {  
+    var experiences = document.getElementById("experiences");  
+    document.getElementById("experienced").value = experiences.options[experiences.selectedIndex].text; } 
+
