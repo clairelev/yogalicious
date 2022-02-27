@@ -8,9 +8,11 @@ const navSlide = () => {
 
 
     burger.addEventListener('click', ()=>{
-            //Toggle nav
-        nav.classList.toggle('nav-active');
+    //Toggle nav
+    nav.classList.toggle('nav-active');
     
+
+
     //Animate Links
 navLinks.forEach((link, index) => {
     if (link.style.animation) {
@@ -22,7 +24,7 @@ navLinks.forEach((link, index) => {
 
 });
 
-//BUrger Close
+//Burger Close
 burger.classList.toggle('closeburger');
     });
 
