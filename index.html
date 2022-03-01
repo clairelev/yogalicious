@@ -61,10 +61,14 @@
 
         <div class="mysterio">
         <h2>Create your detective profile</h2>
+        <?= $firstName ?>
+        <?=$firstAge ?>
         <p><span id="greeting"></span> Detective, we've been reorganising the office recently and seem to have misplaced our employee files. If you could fill in your details below we will be sure not to misplace them again. Hopefully.</p><br>
         <p><b>Name:</b><span id="detectivename" contenteditable="true"></span> <br>
-        <b>Age:</b><br>
-        <b>Experience:</b><br>
+        <b>Age:</b><span id="detectiveage" contenteditable="true"></span> <br>
+        <br> </p>
+        </div>
+        
         <div class="experience"><b>Experience:</b>
             <form>  
                 <b> Select your experience </b>  
@@ -74,9 +78,11 @@
                 <option> Intermediate </option>  
                 <option> Expert </option>   
                 </select>  
+               
             </form> 
             <p> Your selected experience is:   
-                <input type = "text" id = "experienced" size = "20" </p> </div>
+                <input type = "text" id = "experienced" size = "20"> </p>
+                <button onclick=myalert() class="submit1">Submit</button></div>
     
                 
     
@@ -100,7 +106,7 @@
     <footer>
         Mysterio Mysteries © Claire and Kathryn 2022
     </footer>
-
+    
     
     <script src="main.js"></script>
 </body>

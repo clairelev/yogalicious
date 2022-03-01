@@ -8,12 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-
+    <script src="main.js"></script>
     <link rel="stylesheet" href="style.css">
+    
     <title>Contact Us</title>
 </head>
 <body>
     <script src="main.js"></script>
+   <script src="contactus.js"></script>
+    
     <nav>
         <div class="logo">
             <h3><time id="time"></time></h3>
@@ -45,6 +48,36 @@
 
 
         <span id="detectivename" contenteditable="true"></span> 
+
+
+        <div class="container">
+            <form>
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name"><br>
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name"><br>
+
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="emailaddress" placeholder="Your email address"><br>
+          
+              <label for="reason">Choose a reason for contacting us</label>
+              <select id="reason" name="reasonforcontact">
+                <option value="technical issue">Technical issue</option>
+                <option value= "customersupport">Customer support</option>  
+                <option value=" generalfeedback">General Feedback</option>
+                <option value="paymentissues">Payment issues</option>
+                <option value="other">Other</option>
+              </select><br>
+          
+              <label for="subject">Subject</label> <br>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="width:400px"></textarea><br>
+          
+             <button class="submit" onclick="Submit()">Submit</button>
+          
+            </form>
+          </div> 
     </section>
 
 

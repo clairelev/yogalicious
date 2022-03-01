@@ -96,7 +96,7 @@ const detname = {
         }
     }
 }
-
+localStorage.getItem('detectivename');
 
 
 detectivename.addEventListener('keypress', detname.name);
@@ -131,3 +131,47 @@ function experience() {
     var experiences = document.getElementById("experiences");  
     document.getElementById("experienced").value = experiences.options[experiences.selectedIndex].text; } 
 
+
+    
+  function getAge(dateString) 
+{
+    var today = new Date();
+    var birthDate = new Date(dateString);
+    var detage = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) 
+    {
+        detage--;
+    }
+    return detage;}
+    { if(localStorage.getItem('detectiveage') == null) {
+            detectiveage.textContent = '[Enter Age]';
+        } else {
+            detectiveage.textContent = localStorage.getItem('detectiveage');
+        }
+    }
+    
+    
+    const detage = { 
+
+        age: function setAge(e) {
+            if(e.type === 'keypress') {
+                if(e.which == 13 || e.keyCode == 13) {
+                    localStorage.setItem('detectiveage', e.target.innerText);
+                    detectiveage.blur();
+                }
+            }   else {
+                localStorage.setItem('detectiveage', e.target.innerText);
+            }
+        }
+    }
+    localStorage.getItem('detectiveage');
+    
+    
+    detectiveage.addEventListener('keypress', detage.age);
+    detectiveage.addEventListener('blur', detage.age);
+
+function myalert() {
+            alert("Great experience!");
+        }
+    

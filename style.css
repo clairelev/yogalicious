@@ -284,9 +284,100 @@ nav{
 
 
   .experience{
-    background-color: #3498DB;
+    border-radius: 10px;  
+    background-color: #aac3d3;
     color: rgb(90, 5, 69);
     padding: 10px;
     font-size: 16px;
     border: black;
-    cursor: pointer;}
+    cursor: pointer;
+    margin:25px}
+
+/*contact us page*/
+     
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 5px solid rgb(219, 41, 130); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom: 24px; 
+    resize: vertical }
+  
+  input[type=email] {
+    width: 100%;
+    padding:12px;
+    border:5px solid rgb(219, 41, 130);
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom: 24px; 
+    resize: vertical
+    
+  }
+
+  .container {
+    border-radius: 10px;
+    background-color: #f3a0a0;
+    padding: 40px;
+  } 
+
+  .submit{display: inline-block;
+    background-color: #ce0e9e;
+    border-radius: 20px;
+    border: 6px double #c2b2bc;
+    color: #2b0a57;
+    text-align: center;
+    font-size: 22px;
+    padding:25px;
+    margin:20%
+  
+}
+
+.submit {
+    transition-duration: 0.4s;
+  }
+  
+  .submit:hover{
+    background-color: #dd95bf; 
+    color: rgb(7, 50, 58);
+  }
+
+  /*mainpage*/
+
+  .conclusion {
+    border-radius: 10px;
+    background-color: #e77dd5;
+    padding: 40px;
+  } 
+
+  .suspects {
+    border-radius: 10px;
+    background-color: #795673;
+    padding: 40px;
+  } 
+
+
+/*indexpage*/
+
+.submit1{display: inline-block;
+    background-color: #7d81bb;
+    border-radius: 16px;
+    border: 6px double #8a1c61;
+    color: #110225;
+    text-align: center;
+    font-size: 12px;
+    padding:15px;
+    margin:2%
+  
+}
+
+.submit1 {
+    transition-duration: 0.4s;
+  }
+  
+  .submit1:hover{
+    background-color: #11010a; 
+    color: rgb(204, 221, 224);
+  }
