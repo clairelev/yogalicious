@@ -172,6 +172,45 @@ function experience() {
     detectiveage.addEventListener('blur', detage.age);
 
 function myalert() {
-            alert("Great experience!");
-        }
+   
+        alert("No mystery is too hard for us");
+    
+    }
+               
+        
+
+function wrong(){
+    
+    alert("Sorry, that's wrong");
+    window.location='carla2.html';
+    
+}
+
+function wrong1(){
+    
+    alert("Sorry, that's wrong");
+    window.location='chad2.html';
+    
+}
+
+function wrong2(){
+    
+    alert("Sorry, that's wrong");
+    window.location='chef2.html';
+    
+}
+
+function wrong3(){
+    
+    alert("Sorry, that's wrong");
+    window.location='sabrina2.html';
+    
+}
+
+function right(){
+    
+    alert("Congratulations, on solving the mystery");
+    window.location='yvonne2.html';
+    
+}
     

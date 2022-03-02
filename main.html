@@ -81,12 +81,13 @@
  
 <form action="" id="main" name="main" method="get" onChange="top.location.href=this.options[this.selectedIndex].value;" value="GO">
     <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+       <option selected="selected">Choose your suspect</option>
        <option value= "/carla2.html" onclick="wrong()">Carla</option>
-       <option value="/chad2.html">Chad</option>
-       <option value="/chef2.html">Chef</option>
-       <option value="/sabrina2.html">Sabrina </option>
-       <option value="/yvonne2.html">Yvonne</option>
-       <option selected="selected">Choose your suspect</option>'
+       <option value="/chad2.html" onclick="wrong1()" >Chad</option>
+       <option value="/chef2.html" onclick="wrong2()">Chef</option>
+       <option value="/sabrina2.html"onclick="wrong3()" >Sabrina </option>
+       <option value="/yvonne2.html"onclick="right()" >Yvonne</option>
+      
     </select>
 </form>
     
@@ -97,6 +98,10 @@
             <span id="greeting"></span>  <span id="detectivename" contenteditable="true"></span>,
             </div>
          </section>
+
+         <div>
+            <script src="main.js"></script>
+            <button onclick="indexpage()" class="button1">Back to index page</button></div>
     <footer>
         Mysterio Mysteries © Claire and Kathryn 2022
     </footer>
