@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-a:hover{ color:pink;
+a:hover{ color:white;
     font-weight: bold;
     font-style: italic;
 
@@ -71,7 +71,14 @@ footer{color: #FFFFFF;
 
 .block {
     float: left;
-    width: 50%;
+    width: auto;
+    padding: 10px;
+
+}
+.block2 {
+    float: right;
+    width: auto;
+    padding: 10px;
 
 }
 
@@ -241,15 +248,18 @@ nav{
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
-.button{display: inline-block;
-    background-color: #3850d8;
+.button{
+    display: inline-block;
+    background-color: #949596;
     border-radius: 10px;
-    border: 4px double #163133;
+    border: 4px double #3d3d3d;
     color: #eaebf0;
     text-align: center;
     font-size: 14px;
     padding:32px 16px;
-    margin:20%
+    margin:10px;
+
+    
   
 }
 
@@ -258,19 +268,19 @@ nav{
   }
   
   .button:hover {
-    background-color: #c41616; 
+    background-color: #636262; 
     color: white;
   }
 
   .button1{display: inline-block;
-    background-color: #bd7dbd;
+    background-color: #a8a8a8;
     border-radius: 14px;
-    border: 4px double #7b6e99;
-    color: #2b0a57;
+    border: 4px double #949494;
+    color: #ebebeb;
     text-align: center;
     font-size: 22px;
     padding:16px;
-    margin:20%
+    margin:10px;
   
 }
 
@@ -279,16 +289,15 @@ nav{
   }
   
   .button1:hover {
-    background-color: #dd95bf; 
-    color: rgb(7, 50, 58);
+    background-color: #4e4e4e; 
+
   }
 
 
   .experience{
-    border-radius: 10px;  
-    background-color: #aac3d3;
-    color: rgb(90, 5, 69);
-    padding: 10px;
+border-radius: 25px;
+    padding: 25px; 
+    background-color:rgb(167, 167, 167);
     font-size: 16px;
     border: black;
     cursor: pointer;
@@ -299,7 +308,7 @@ nav{
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
-    border: 5px solid rgb(219, 41, 130); 
+    border: 5px solid rgb(119, 116, 118); 
     border-radius: 4px; 
     box-sizing: border-box; 
     margin-top: 10px; 
@@ -309,7 +318,7 @@ input[type=text], select, textarea {
   input[type=email] {
     width: 100%;
     padding:12px;
-    border:5px solid rgb(219, 41, 130);
+    border:5px solid rgb(119, 116, 118);
     border-radius: 4px; 
     box-sizing: border-box; 
     margin-top: 10px; 
@@ -320,19 +329,20 @@ input[type=text], select, textarea {
 
   .container {
     border-radius: 10px;
-    background-color: #f3a0a0;
-    padding: 40px;
+    background-color: #c5c4c4;
+    padding: 20px;
+    margin: 25px;
   } 
 
   .submit{display: inline-block;
-    background-color: #ce0e9e;
+    background-color: #999797;
     border-radius: 20px;
     border: 6px double #c2b2bc;
-    color: #2b0a57;
+    color: #f0ecec;
     text-align: center;
     font-size: 22px;
     padding:25px;
-    margin:20%
+    margin:20px;
   
 }
 
@@ -341,16 +351,15 @@ input[type=text], select, textarea {
   }
   
   .submit:hover{
-    background-color: #dd95bf; 
-    color: rgb(7, 50, 58);
+    background-color: #615f60; 
   }
 
   /*mainpage*/
 
   .conclusion {
     border-radius: 10px;
-    background-color: #e77dd5;
-    padding: 40px;
+    background-color: rgb(182, 180, 180);
+    padding: 20px;
   } 
 
   .suspects {
@@ -363,14 +372,14 @@ input[type=text], select, textarea {
 /*indexpage*/
 
 .submit1{display: inline-block;
-    background-color: #7d81bb;
+    background-color: #8f8f8f;
     border-radius: 16px;
-    border: 6px double #8a1c61;
-    color: #110225;
+    border: 6px double #464646;
+    color: #ffffff;
     text-align: center;
     font-size: 12px;
     padding:15px;
-    margin:2%
+    margin:10px;
   
 }
 
@@ -379,8 +388,7 @@ input[type=text], select, textarea {
   }
   
   .submit1:hover{
-    background-color: #11010a; 
-    color: rgb(204, 221, 224);
+    background-color: #5e5d5d; 
   }
 
 /*Then there were two*/
