@@ -381,3 +381,42 @@ input[type=text], select, textarea {
     background-color: #11010a; 
     color: rgb(204, 221, 224);
   }
+
+/*Then there were two*/
+
+.two{
+    background-color:rgb(102, 195, 207);
+    font-size: 18px;
+    font-family: 'Pacifico', cursive;
+    padding: 25px; 
+    border-radius: 25px;  
+    margin: 25px;
+}
+
+/*Deadly wedding*/
+
+.deadly{
+    background-color:rgb(217, 240, 156);
+    font-size: 18px;
+    font-family:'Syne Mono', monospace;
+    padding: 25px; 
+    border-radius: 25px;  
+    margin: 25px;}
+
+/*Brad's Kidnapping*/
+.kidnapping{
+background-color:rgb(235, 69, 105);
+font-size: 18px;
+font-family:'Caveat', cursive;
+padding: 25px; 
+border-radius: 25px;  
+margin: 25px;}
+
+/* Databreach Partylicious*/
+.partylicious{
+    background-color:rgb(232, 187, 238);
+    font-size: 18px;
+    font-family: 'Parisienne', cursive;
+    padding: 25px; 
+    border-radius: 25px;  
+    margin: 25px;}
