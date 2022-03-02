@@ -1,6 +1,5 @@
 //---------------------NAVIGATION
 
-
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
@@ -8,26 +7,20 @@ const navSlide = () => {
 
 
     burger.addEventListener('click', ()=>{
-    //Toggle nav
+//Toggle nav
     nav.classList.toggle('nav-active');
-    
-
-
     //Animate Links
 navLinks.forEach((link, index) => {
     if (link.style.animation) {
         link.style.animation = ''
     } else {
         link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
-
     }
-
 });
 
 //Burger Close
 burger.classList.toggle('closeburger');
     });
-
 }
 
 
@@ -103,11 +96,6 @@ detectivename.addEventListener('keypress', detname.name);
 detectivename.addEventListener('blur', detname.name);
 
 
-
-
-
-
-
 //Run
 showTime();
 setGreeting();
@@ -125,7 +113,6 @@ function indexpage(){
     window.location='index.html';
     
 }
-
 
 function experience() {  
     var experiences = document.getElementById("experiences");  
@@ -172,11 +159,10 @@ function experience() {
     detectiveage.addEventListener('blur', detage.age);
 
 function myalert() {
-   
+
         alert("No mystery is too hard for us");
     
-    }
-               
+    }              
         
 
 function wrong(){
@@ -213,4 +199,3 @@ function right(){
     window.location='yvonne2.html';
     
 }
-    
